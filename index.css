@@ -1,0 +1,99 @@
+/* body,
+html {
+  
+  background-color: aqua;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: darkred;
+}
+
+#save-btn {
+  background: darkgreen;
+}
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers vertically */
+/* align-items: center; Centers horizontally */
+/* height: 100%;
+} */
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  width: 300px;
+
+  /* Flexbox properties for centering */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2,
+p {
+  text-align: center; /* Centers text inside these elements */
+  width: 100%; /* Ensures they take up full width of the card for consistent centering */
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+
+  /* Additional style to ensure buttons take full width if needed */
+  width: 100%;
+  text-align: center;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: aquamarine;
+
+  /* Flexbox properties for centering */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
